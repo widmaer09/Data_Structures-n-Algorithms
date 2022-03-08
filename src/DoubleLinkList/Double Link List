@@ -1,0 +1,56 @@
+
+
+
+
+
+
+//insert at head
+    create new node "bill"
+    assign jane to bills next field
+    assign whatever jane is pointing as previous to bills previous field
+    assign bill to janes previous field
+    assign head to "bill"
+    o(1) time complexity
+
+
+//insert at tail
+    creat new node bill
+    assign tails next field to bills next field
+    assign tail to  bills previous field
+    assign tails next field to bill
+     assign tails next field to bill
+     assign tail to bill
+     o(1) time complexity
+
+
+     
+//delete from head
+assign jane to removednode
+assign johns previous field to janes previouse feild
+assign head to janes next field
+return removednode from the  method
+0(1) time complexity
+
+//delete from end
+assign bill to removenode
+assign  mikes next field to bills next feild
+assign tail to bills previous field
+return removenode from the method
+0(1) time complexity
+
+
+//to insert a node between nodes B and C
+assign A's next field to B's NEXT FIELD
+Assign A's previous field to C's previous field
+Assign B's next field to A
+Assign C's previouse field to A
+0(1) time complexity but really o(n)
+
+//to remove node A from between B and C
+assign A to removed node
+assigne C's previous field to A's prviouse field
+assign b next feild to a next field
+return a from the method
+o(n)
+
+
